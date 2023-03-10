@@ -1,6 +1,22 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
     "npx": "^10.2.2",
     "react": "^18.2.0"
-  }
+  },
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "Complete Noejs Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sudhanshu10Sathawane/NodeJsUdemy-Assignment.gitnpm "
+  },
+  "author": "Sudhanshu Sathawane",
+  "license": "ISC"
 }
